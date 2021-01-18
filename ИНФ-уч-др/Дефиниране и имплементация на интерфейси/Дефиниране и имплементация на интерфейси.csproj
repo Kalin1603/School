@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Дефиниране_и_имплементация_на_интерфейси</RootNamespace>
+  </PropertyGroup>
+
+</Project>
