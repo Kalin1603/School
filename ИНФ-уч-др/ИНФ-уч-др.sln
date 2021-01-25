@@ -37,7 +37,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Работници", "Ра�
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Животинско царство", "Животинско царство\Животинско царство.csproj", "{CE963C26-8A9A-40E0-A444-65A357A87515}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Рожден ден", "Рожден ден\Рожден ден.csproj", "{5E94FCEE-CE23-4FDF-9176-BEBAD707E88E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Рожден ден", "Рожден ден\Рожден ден.csproj", "{5E94FCEE-CE23-4FDF-9176-BEBAD707E88E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
