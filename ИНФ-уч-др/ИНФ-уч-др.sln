@@ -46,9 +46,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeedInformation", "SpeedInformation\SpeedInformation.csproj", "{AA1CC275-CA77-489E-BFBE-6F981D59C174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeedInformation", "SpeedInformation\SpeedInformation.csproj", "{AA1CC275-CA77-489E-BFBE-6F981D59C174}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BonusPoints", "BonusPoints\BonusPoints.csproj", "{94889B5E-7DE5-41F0-AAB5-87A6EDC681B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BonusPoints", "BonusPoints\BonusPoints.csproj", "{94889B5E-7DE5-41F0-AAB5-87A6EDC681B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
