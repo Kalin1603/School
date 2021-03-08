@@ -50,6 +50,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeedInformation", "SpeedIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BonusPoints", "BonusPoints\BonusPoints.csproj", "{94889B5E-7DE5-41F0-AAB5-87A6EDC681B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{E36B5981-837F-4356-89CF-660BB69FFFAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -140,6 +142,10 @@ Global
 		{94889B5E-7DE5-41F0-AAB5-87A6EDC681B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94889B5E-7DE5-41F0-AAB5-87A6EDC681B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94889B5E-7DE5-41F0-AAB5-87A6EDC681B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36B5981-837F-4356-89CF-660BB69FFFAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36B5981-837F-4356-89CF-660BB69FFFAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36B5981-837F-4356-89CF-660BB69FFFAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36B5981-837F-4356-89CF-660BB69FFFAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
