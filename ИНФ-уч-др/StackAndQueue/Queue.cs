@@ -25,8 +25,8 @@ namespace StackAndQueue
             {
                 throw new InvalidOperationException("MyQueue contains no elements");
             }
-            T pop = elements[elements.Count + 1];
-            elements.RemoveAt(elements.Count + 1);
+            T pop = elements[elements.Count - 1];
+            elements.RemoveAt(elements.Count - 1);
             return pop;
         }
 
