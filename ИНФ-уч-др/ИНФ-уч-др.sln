@@ -52,7 +52,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BonusPoints", "BonusPoints\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms", "Algorithms\Algorithms.csproj", "{E36B5981-837F-4356-89CF-660BB69FFFAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Forms", "Algorithms.Forms\Algorithms.Forms.csproj", "{78322FB1-6631-4535-AB3E-D76BF3156E43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms.Forms", "Algorithms.Forms\Algorithms.Forms.csproj", "{78322FB1-6631-4535-AB3E-D76BF3156E43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magazine", "Magazine\Magazine.csproj", "{0F0DC7E5-E528-42B9-B061-FA11FFA30B36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -152,6 +156,14 @@ Global
 		{78322FB1-6631-4535-AB3E-D76BF3156E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78322FB1-6631-4535-AB3E-D76BF3156E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78322FB1-6631-4535-AB3E-D76BF3156E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0DC7E5-E528-42B9-B061-FA11FFA30B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0DC7E5-E528-42B9-B061-FA11FFA30B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0DC7E5-E528-42B9-B061-FA11FFA30B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0DC7E5-E528-42B9-B061-FA11FFA30B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
