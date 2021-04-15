@@ -56,7 +56,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms.Forms", "Algorit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magazine", "Magazine\Magazine.csproj", "{0F0DC7E5-E528-42B9-B061-FA11FFA30B36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackAndQueue", "StackAndQueue\StackAndQueue.csproj", "{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises\Exercises.csproj", "{711FB3E4-3F14-441F-BDA0-203D0EC3E0BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -164,6 +166,10 @@ Global
 		{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87AF957A-EBBF-47AB-AC68-27DB6491E2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711FB3E4-3F14-441F-BDA0-203D0EC3E0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711FB3E4-3F14-441F-BDA0-203D0EC3E0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711FB3E4-3F14-441F-BDA0-203D0EC3E0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711FB3E4-3F14-441F-BDA0-203D0EC3E0BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
