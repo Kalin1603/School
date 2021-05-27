@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Pharmacy_FormsApp
 {
-    public partial class AddMedicine : Form
+    public partial class AddMedicineForm : Form
     {
-        public AddMedicine()
+        public AddMedicineForm()
         {
             InitializeComponent();
         }

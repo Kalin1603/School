@@ -1,6 +1,6 @@
 ﻿namespace Pharmacy_FormsApp
 {
-    partial class AddMedicine
+    partial class AddMedicineForm
     {
         /// <summary>
         /// Required designer variable.

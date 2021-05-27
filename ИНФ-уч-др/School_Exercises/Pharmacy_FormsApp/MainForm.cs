@@ -11,26 +11,28 @@ using System.Windows.Forms;
 
 namespace Pharmacy_FormsApp
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private Dictionary<string, Medicine> medicines;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             medicines = new Dictionary<string, Medicine>();
             LoadMedicines();
+            LoadPharmacy();
         }
 
         private void addMedicine_Click(object sender, EventArgs e)
         {
-            AddMedicine medicine = new AddMedicine();
+            AddMedicineForm medicine = new AddMedicineForm();
             medicine.Show();
         }
 
         private void buttonLoad_Click(object sender, EventArgs e)
         {
             LoadMedicines();
+            LoadPharmacy();
         }
 
         private void LoadMedicines()
@@ -55,6 +57,31 @@ namespace Pharmacy_FormsApp
             {
                 listBox1.Items.Add(m.Value.ToString());
             }
+        }
+
+        private void LoadPharmacy()
+        {
+            string path = @"E:\Kalin_Informatika\School-Repository\ИНФ-уч-др\School_Exercises\Pharmacy_FormsApp\Pharmacy.txt";
+
+            listBox2.Items.Clear();
+
+            using (StreamReader reader = new StreamReader(path))
+            {
+                while (!reader.EndOfStream)
+                {
+                    string result = reader.ReadLine();
+                    if (result[0] == '@')
+                    {
+                        listBox2.Items.Add(result.TrimStart('@'));
+                    }
+                }
+            }
+        }
+
+        private void addPharmacyButton_Click(object sender, EventArgs e)
+        {
+            AddPharmacyForm pharmacy = new AddPharmacyForm();
+            pharmacy.Show();
         }
     }
 }
