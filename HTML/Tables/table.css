@@ -1,0 +1,13 @@
+
+    table, tr, th, td{
+        border: 1px solid rebeccapurple;
+        text-align: center;
+    }
+
+    td{
+        width: 150px;
+    }
+
+    tr{
+        height: 30px;
+    }
