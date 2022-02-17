@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    width: 100%;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header>div{
+    background-color: rgb(252, 250, 250);
+    padding: 5px;
+    margin: auto;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px 0 0 0;
+    font-family: sans-serif;
+}
+
+ul>li{
+    list-style: none;
+}
+
+ul>li>a{
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    color: gray;
+}
+
+.first{
+    background-image: linear-gradient(rgb(0,0,0,0.2), rgb(0,0,0,0.4)), 
+    url('residential-banner-2.jpg');
+    background-size: cover;
+    background-position-y: 100%;
+    background-position-x: 50%;
+    height: 350px;
+    padding-top: 10px;
+}
+
+.first>p{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+.second{
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 440px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+    margin: auto;
+    color:gray;
+    font-family: sans-serif;
+}
+
+.design{
+    padding: 0 50px 0 50px;
+}
+
+.schedule{
+    padding: 0 50px 0 50px;
+}
+
+.enjoy{
+    padding: 0 50px 0 50px;
+}
+
+h3{
+    font-size: 25pt;
+}
+
+.design>p{
+    font-size: 15pt;
+}
+
+.schedule>p{
+    font-size: 15pt;
+}
+
+.enjoy>p{
+    font-size: 15pt;
+}
+
+.third{
+    display: flex;
+    background-color: grey;
+    padding-top: 60px;
+    padding-right: 440px;
+    padding-left: 400px;
+    padding-bottom: 60px;
+    margin: auto;
+}
+
+.img1{
+    padding: 0 5px 0 5px;
+}
+
+.img2{
+    padding: 0 5px 0 5px;
+}
+
+.img3{
+    padding: 0 5px 0 5px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer>p{
+    color: grey;
+    text-align: center;
+}
+
+.fourth{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 440px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#p{
+    color: gray;
+}
+
+.textbox{
+    padding: 8px;
+    width: 230px;
+    height: 35px;
+    border-radius: 2px;
+}
+
+.button{
+    padding: 8px;
+    width: 230px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+}
